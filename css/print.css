@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya|Sanchez);
+
+body {
+  font-family: "Alegreya", serif;
+  color: black;
+  font-size: 8pt;
+  line-height: 1.5;
+  background-color: transparent; !important
+}
+
+@page{
+  margin: 0.5in;
+}
+
+address{
+  margin-left: 0;
+}
+
+address p {
+  text-align: center;
+}
+
+nav p {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 22.25pt;
+  margin-left: 22.25pt;
+  font-size: 15pt;
+  margin-top: 1;
+  margin-bottom: 3pt;
+}
+
+nav {
+  display: none;
+}
+
+img {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Sanchez";
+  font-size: 21pt;
+  text-align: center;
+  margin: auto;
+  float: left;
+  max-width: 240pt;
+  margin-top: 3mm;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: "Sanchez", serif;
+  margin-top: 10mm;
+  margin-bottom: 2mm;
+  border-bottom: 1.5pt dotted black;
+  font-size: 12pt;
+}
+
+h3 {
+  font-weight: normal;
+  margin-top: 4pt;
+  margin-bottom: 1.5pt;
+  font-size: 10pt;
+}
+
+ul {
+  margin: 0;
+}
+
+article p {
+  margin: 0;
+}
+
+article {
+  margin-bottom: 9pt;
+}
+
+article, ul {
+  list-style: disc;
+}
+
+article > ul > li > ul > li {
+  list-style: circle;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.year {
+  font-weight: lighter;
+  font-style: italic;
+  text-align: right;
+}
+
+.position {
+  clear: left;
+  margin-top: 0;
+}
+
+.info {
+  overflow: auto;
+}
+
+.list {
+  margin: 2.25pt;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.institution {
+  float: left;
+}
+
+.hability {
+  float: left;
+  margin-right: 5mm;
+}
+
+.habilidade {
+  float: left;
+  margin-right: 15mm;
+}
+
+.basic {
+  float: left;
+}
+
+#education {
+  margin-top: 4mm;
+  clear: both;
+}
+
+#social {
+  display: none;
+}
+
+#container {
+  max-width: 386.25pt;
+  min-width: 382.5pt;
+  margin: 0 auto;
+}

@@ -3,17 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <title>Melanie Paula Chapaval Lebensztajn's Resume</title>
+    <link href="css/style.css" rel="stylesheet" media="screen"/>
+    <link href="css/print.css" rel="stylesheet" media="print"/>
   </head>
 
   <body>
+    <div id="container">
     <header>
     <h1><strong>Melanie Paula Chapaval Lebensztajn</strong></h1>
-    <img src="eu.jpg" alt="me">
-    <address><p>950 Brickell Bay Drive 4102</p>
-    <p>33131 Miami, FL</p>
-    <p><a href="mailto:melchapaval@gmail.com">melchapaval@gmail.com</a></p>
-    <p><a href="tel:+16468975663">+1 (646)897-5663</a></p></address>
-    <p><a href="https://facebook.com/melchapaval"><img src="face.png" alt="facebook_logo"/></a><a href="https://instagram.com/melchapaval"><img src="insta.png" alt="instagram_logo"/></a><a href="https://twitter.com/melchapaval"><img src="twitter.png" alt="twitter_logo"/></a></p>
+    <div class="info">
+      <img src="img/eu.jpg" alt="me">
+      <address>
+        <p>950 Brickell Bay Drive 4102</p>
+        <p>33131 Miami, FL</p>
+        <p><a href="mailto:melchapaval@gmail.com">melchapaval@gmail.com</a></p>
+        <p><a href="tel:+16468975663">+1 (646)897-5663</a></p>
+        <p>
+          <a href="https://facebook.com/melchapaval"><img src="img/face.png" alt="facebook_logo"/></a>
+          <a href="https://instagram.com/melchapaval"><img src="img/insta.png" alt="instagram_logo"/></a>
+          <a href="https://twitter.com/melchapaval"><img src="img/twitter.png" alt="twitter_logo"/></a>
+        </p>
+        </address>
+      </div>
     </header>
 
     <nav>
@@ -24,25 +35,25 @@
 
     <main>
       <section>
-        <h2><a name="education">EDUCATION</a></h2>
+        <h2 id="education">EDUCATION</h2>
           <article>
-            <h3>University of Miami - Coral Gables, FL</h3>
-              <p>May 2018</p>
-              <p>Bachelor of Science in Communication in Electronic Media</p>
+            <h3 class="institution"><span class="name">University of Miami</span> - Coral Gables, FL</h3>
+              <p class="year">May 2018</p>
+              <p class="position">Bachelor of Science in Communication in Electronic Media</p>
               <p>Minor in Motion Pictures; GPA 3.77</p>
           </article>
           <article>
-          <h3>Escola de Atores Wolf Maya - S&atilde;o Paulo, Brazil</h3>
-            <p>Jan 2012 - July 2013</p>
-            <p>Associate of Fine Arts in Acting</p>
+          <h3 class="institution"><span class="name">Escola de Atores Wolf Maya </span> - S&atilde;o Paulo, Brazil</h3>
+            <p class="year">Jan 2012 - July 2013</p>
+            <p class="position">Associate of Fine Arts in Acting</p>
           </article>
       </section>
       <section>
-        <h2><a name="work">WORK EXPERIENCE</a></h2>
+        <h2 id="work">WORK EXPERIENCE</h2>
           <article>
-            <h3>Olympic Broadcasting Services - Rio de Janeiro, Brazil</h3>
-              <p>August 2016</p>
-              <p>Will be working as Camera Assistant during the Rio 2016 Summer Olympic Games.<p>
+            <h3 class="institution"><span class="name">Olympic Broadcasting Services</span> - Rio de Janeiro, Brazil</h3>
+              <p class="year">August 2016</p>
+              <p class="position">Camera Assistant<p>
                 <ul>
                   <li>Strategically set up equipment in the arena so that the cables are hidden and the cameras are protected.</li>
                   <li>Provide support to the Camera Operator so that he/she doesn’t face any problems during the live transmission of the competition.</li>
@@ -50,9 +61,9 @@
                 </ul>
           </article>
           <article>
-            <h3>UniMiami's UMTV - Coral Gables, FL</h3>
-              <p>Nov 2015 - Present<p>
-              <p>Executive Producer</p>
+            <h3 class="institution"><span class="name">UniMiami's UMTV</span> - Coral Gables, FL</h3>
+              <p class="year">Nov 2015 - Present<p>
+              <p class="position">Executive Producer</p>
               <ul>
                 <li>Write rundowns and stories to the show.</li>
                 <li>Organize a talent and crew rotation to make the show.</li>
@@ -60,9 +71,9 @@
               </ul>
           </article>
           <article>
-            <h3>NR Acampamentos - Sapuca&iacute; Mirim, Brazil</h3>
-              <p>Jan 2013 - Present</p>
-              <p>Counselor</p>
+            <h3 class="institution"><span class="name">NR Acampamentos</span> - Sapuca&iacute; Mirim, Brazil</h3>
+              <p class="year">Jan 2013 - Present</p>
+              <p class="position">Counselor</p>
                 <ul>
                   <li>Manage other counselors in order to certify that they are executing their assignments properly.</li>
                   <li>Communicate with parents to provide performance updates and assessments.</li>
@@ -72,29 +83,42 @@
           </article>
         </section>
         <section>
-          <h2><a name="skills">SKILLS</a></h2>
-            <p>Proficient in:</p>
-            <ul>
-              <li>Adobe:
+          <h2 id="skills">SKILLS</h2>
+          <div class="hability">
+            <article>
+              <h3 class="list">Proficient in:</h3>
                 <ul>
-                  <li>Premiere</li>
-                  <li>InDesign</li>
-                  <li>Photoshop</li>
-                  <li>Illustrator</li>
+                  <li>Adobe:
+                    <ul>
+                      <li>Premiere</li>
+                      <li>InDesign</li>
+                      <li>Photoshop</li>
+                      <li>Illustrator</li>
+                    </ul>
+                  <li>ENPS</li>
                 </ul>
-              <li>ENPS</li>
-            </ul>
-          <p>Fluent in:</p>
-            <ul>
-              <li>Portuguese</li>
-              <li>Spanish</li>
-            </ul>
-          <p>Basic in:</p>
-            <ul>
-              <li>French</li>
-              <li>Hebrew</li>
-            </ul>
+            </article>
+          </div>
+          <div class="habilidade">
+            <article>
+              <h3 class="list">Fluent in:</h3>
+                <ul>
+                  <li>Portuguese</li>
+                  <li>Spanish</li>
+                </ul>
+            </article>
+          </div>
+          <div class="basic"
+            <article>
+              <h3 class="list">Basic in:</h3>
+                <ul>
+                  <li>French</li>
+                  <li>Hebrew</li>
+                </ul>
+            </article>
+          </div>
         </section>
       </main>
+  </div>
 </body>
 </html>
