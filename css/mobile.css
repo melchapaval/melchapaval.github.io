@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya|Sanchez);
 
+@media (max-width: 320px) {
+  /* mobile styles go here! */
+}
+
+
 body {
   font-family: "Alegreya", serif;
   color: rgb(0,0,0);
@@ -9,8 +14,8 @@ body {
 }
 
 .container2 {
-  max-width: 500px;
-  min-width: 500px;
+  max-width: 470px;
+  min-width: 320px;
   margin: 0 auto;
 }
 
@@ -117,4 +122,8 @@ h1 > strong {
 
 #first {
   display: inline-block;
+}
+
+.name {
+  font-size: 15px;
 }

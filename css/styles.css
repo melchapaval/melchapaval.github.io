@@ -14,6 +14,12 @@ body {
   margin: 0 auto;
 }
 
+.container3 {
+  max-width: 1010px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
 address {
   margin-left: 0;
   text-align: center;
@@ -232,4 +238,54 @@ h1 > strong {
 #nome {
   color: black;
   text-decoration: none;
+}
+
+button {
+	-moz-box-shadow:inset 0px 0px 2px 0px #ffb8e1;
+	-webkit-box-shadow:inset 0px 0px 2px 0px #ffb8e1;
+	box-shadow:inset 0px 0px 2px 0px #ffb8e1;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f598cd), color-stop(1, #f585c6));
+	background:-moz-linear-gradient(top, #f598cd 5%, #f585c6 100%);
+	background:-webkit-linear-gradient(top, #f598cd 5%, #f585c6 100%);
+	background:-o-linear-gradient(top, #f598cd 5%, #f585c6 100%);
+	background:-ms-linear-gradient(top, #f598cd 5%, #f585c6 100%);
+	background:linear-gradient(to bottom, #f598cd 5%, #f585c6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f598cd', endColorstr='#f585c6',GradientType=0);
+	background-color:#f598cd;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	border:3px solid #f26ab9;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Times New Roman;
+	font-size:14px;
+	font-weight:bold;
+	padding:1px 5px;
+	text-decoration:none;
+}
+
+.Wallop-buttonNext {
+  margin-top: 223px;
+  clear: both;
+  margin-left: 12px;
+}
+
+.Wallop-buttonPrevious {
+  margin-top: 223px;
+  float: left;
+  margin-right: 12px;
+}
+
+.Wallop {
+  text-align: center;
+}
+
+.Wallop-list {
+  float: left;
+}
+
+#end {
+  margin-top: 42px;
 }
