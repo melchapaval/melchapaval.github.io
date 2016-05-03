@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya|Sanchez);
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   body {
     font-family: "Alegreya", serif;
     color: rgb(0,0,0);
@@ -10,10 +10,12 @@
   }
 
   .container2 {
+    width: 320px;
     margin: 0 auto;
   }
 
   .container3 {
+    width: 320px;
     margin: 0 auto;
   }
 
@@ -37,7 +39,7 @@
   }
 
   a:visited {
-    color: rgb(255,110,180);
+    color: rgb(255,115,180);
   }
 
   a:hover,
@@ -51,11 +53,7 @@
 
   nav li {
     font-weight: lighter;
-    margin-right: 30px;
-    margin-left: 0;
-    font-size: 25px;
-    margin-top: 1;
-    margin-bottom: 4px;
+    font-size: 30px;
   }
 
   nav {
@@ -129,5 +127,34 @@
   img {
   max-width: 100%;
   height: auto !important;
+  }
+
+  .institution {
+    font-size: 23px;
+  }
+
+  .year {
+    font-size: 15px;
+    text-align: right;
+  }
+
+  .Wallop {
+    text-align: inherit;
+  }
+
+  .Wallop-buttonNext {
+    margin-top: 0px;
+    clear: both;
+    margin-left: 0px;
+  }
+
+  .Wallop-buttonPrevious {
+    margin-top: 0px;
+    float: none;
+    margin-right: 0px;
+  }
+
+  .Wallop-list {
+    float: none;
   }
 }
